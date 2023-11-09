@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prince D. Togbah - Portfolio</title>
+    <style>
+        html {
+            background: red;
+        }
+        /* Reset some default styles and set a background color */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Style the header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2em;
+        }
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a:hover {
+            color: darkorange;
+        }
+        
+        /* Style sections */
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1, h2, p {
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        /* Center the About Me section */
+        #about {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #about h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 16px;
+            text-align: justify;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        /* Center the contact form */
+        #contact {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 400px;
+        }
+
+        #contact h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #contact form {
+            text-align: left;
+        }
+
+        #contact label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        #contact input[type="text"],
+        #contact input[type="email"],
+        #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #contact input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #contact input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        
+        /* Center the portfolio section */
+        #portfolio {
+            align-items: center;
+            text-align: center;
+
+        }   
+
+        #portfolio h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #fff;
+            margin: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center the text within the items */
+        }
+
+        .portfolio-container {
+            display: flex;
+            flex-direction: row; /* Arrange items horizontally */
+            justify-content: center; /* Center items horizontally */
+            align-items: center; /* Center items vertically */
+            flex-wrap: wrap; /* Allow items to wrap to the next line if the container is narrow */
+        }
+
+        .portfolio-item img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .portfolio-item p {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        /* Center the profile image */
+        .profile img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            padding: 20px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prince D. Togbah</h1>
+        <nav>
+            <ul>
+                <li><a href="abort.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="profile">
+        <div id="content">
+            <h1>Life Quote</h1>
+            <p>All our dreams can come true; if we have the courage to pursue them.<br> However difficult life may seem, there is always something you can do and succeed at. <br> People begin to become successful the minute they decide to be.</p>
+        </div>
+        <img src="me.jpg" width="200" height="200" alt="Profile Image">
+    </div>
+
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>However difficult life may seem, there is always something you can do and succeed at.</p>
+        <div class="portfolio-container">
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item">
+            <img src="me.jpg" width="220" height="220" alt="Portfolio Item 1">
+            <p>I was born on 18 May 2002 in Monrovia, Liberia. I'm a Liberian, studying programming as a Software Engineer.</p>
+            <a href="abort.html">Read More</a>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item">
+            <img src="second-image.jpg" width="300" height="300" alt="Portfolio Item 2">
+            <p>High level, interpreted programming language.</p>
+            <a href="blog.html">Read More</a>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="first-image.jpg" width="300" height="300" alt="Portfolio Item 2">
+            <p>Welcome to this comprehensive guide to HTML (Hypertext Markup Language), the backbone of web development.</p>
+            <a href="blog.html">Read More</a>  
+        </div>
+
+        <div class="portfolio-item">
+            <img src="contact.jpg" width="300" height="300" alt="Portfolio Item 2">
+            <a href="contact.html">Read More</a> 
+        </div>
+        </div>
+    </section>
+
+
+    <footer>
+        &copy; 2023 Prince D. Togbah
+    </footer>
+</body>
+</html>
